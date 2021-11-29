@@ -12,7 +12,7 @@
 #pragma comment(lib,"sfml-network.lib") 
 #endif 
 
-#include "./include/GameManager.h"
+#include <GameManager.h>
 
 int main()
 {

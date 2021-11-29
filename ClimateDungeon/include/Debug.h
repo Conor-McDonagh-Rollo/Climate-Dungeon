@@ -1,5 +1,6 @@
 #ifndef DEBUG_H
 #define DEBUG_H
+#include <iostream>
 
 #define DEBUG_STATE 1 // Turn Debug logs on or off
 

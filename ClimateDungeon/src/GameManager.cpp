@@ -1,5 +1,6 @@
-#include "../include/GameManager.h"
+#include <GameManager.h>
 
 void GameManager::run()
 {
+	game.LoadLevel(1);
 }
