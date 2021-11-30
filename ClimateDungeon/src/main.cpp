@@ -16,8 +16,8 @@
 
 int main()
 {
-	GameManager game;
-	game.run();
+	GameManager gm;
+	gm.run();
 
 	return 1; // success
 }

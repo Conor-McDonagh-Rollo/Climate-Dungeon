@@ -1,5 +1,5 @@
 ﻿  Game.cpp
-  GameManager.cpp
-  main.cpp
+  GameObject.cpp
   Generating Code...
+C:\Users\C00260445\Desktop\Climate-Dungeon\ClimateDungeon\src\GameObject.cpp(42): warning C4715: 'GameObject::GetModule': not all control paths return a value
   ClimateDungeon.vcxproj -> C:\Users\C00260445\Desktop\Climate-Dungeon\Debug\ClimateDungeon.exe

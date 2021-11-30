@@ -21,7 +21,7 @@ void Game::Run()
 	}
 }
 
-Game::Game() : m_window(sf::VideoMode(1280, 720, 32), "Climate Dungeon", sf::Style::Resize)
+Game::Game() : m_window(sf::VideoMode(1280, 720, 32), "Climate Dungeon", sf::Style::Resize | sf::Style::Close)
 {
 	m_window.setVerticalSyncEnabled(true);
 	m_window.setMouseCursorVisible(false);
@@ -31,6 +31,11 @@ Game::Game() : m_window(sf::VideoMode(1280, 720, 32), "Climate Dungeon", sf::Sty
 void Game::LoadLevel(int t_level)
 {
 	// Do Level Loading Stuff
+
+	
+	Debug_Log(obj.GetModule());
+	
+	sf::Sprite temp = ((Object*)obj.GetModule())->body;
 	Run(); // then run
 }
 
